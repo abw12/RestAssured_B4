@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-04T11:35:57 GMT" name="Suite2" finished-at="2023-07-04T11:36:07 GMT" duration-ms="9701">
+    <groups>
+    </groups>
+    <test started-at="2023-07-04T11:35:57 GMT" name="Test2_CreateUser" finished-at="2023-07-04T11:36:05 GMT" duration-ms="8548">
+      <class name="chaining.CreateUser">
+        <test-method signature="postUserTest(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:chaining.CreateUser@10feca44]" started-at="2023-07-04T11:35:57 GMT" name="postUserTest" finished-at="2023-07-04T11:36:05 GMT" duration-ms="8436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[e77f6138b072794e7d1f6fc52965fa5ee6440cdac47685398caf4059ea8a3825]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@413d1baf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUserTest -->
+      </class> <!-- chaining.CreateUser -->
+    </test> <!-- Test2_CreateUser -->
+    <test started-at="2023-07-04T11:36:06 GMT" name="Test2_GetUser" finished-at="2023-07-04T11:36:06 GMT" duration-ms="329">
+      <class name="chaining.GetUser">
+        <test-method signature="getUserTest(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:chaining.GetUser@43dac38f]" started-at="2023-07-04T11:36:06 GMT" name="getUserTest" finished-at="2023-07-04T11:36:06 GMT" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[e77f6138b072794e7d1f6fc52965fa5ee6440cdac47685398caf4059ea8a3825]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@46b21632]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+      </class> <!-- chaining.GetUser -->
+    </test> <!-- Test2_GetUser -->
+    <test started-at="2023-07-04T11:36:06 GMT" name="Test2_UpdateUser" finished-at="2023-07-04T11:36:07 GMT" duration-ms="652">
+      <class name="chaining.UpdateUser">
+        <test-method signature="updateUserTest(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:chaining.UpdateUser@1de76cc7]" started-at="2023-07-04T11:36:06 GMT" name="updateUserTest" finished-at="2023-07-04T11:36:07 GMT" duration-ms="642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[e77f6138b072794e7d1f6fc52965fa5ee6440cdac47685398caf4059ea8a3825]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@7bb25046]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+      </class> <!-- chaining.UpdateUser -->
+    </test> <!-- Test2_UpdateUser -->
+  </suite> <!-- Suite2 -->
+</testng-results>
